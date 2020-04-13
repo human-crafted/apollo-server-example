@@ -1,0 +1,37 @@
+{
+  "name": "apollo-server-example",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts",
+    "build": "ts-node src/index.ts",
+    "test": "jest test",
+    "lint": "eslint --ignore-path .gitignore './src/**/*.ts' --fix"
+  },
+  "dependencies": {
+    "apollo-datasource-rest": "0.6.11",
+    "apollo-server": "2.9.16",
+    "apollo-server-testing": "2.9.16",
+    "graphql": "14.5.8",
+    "graphql-import": "0.7.1",
+    "graphql-iso-date": "3.6.1",
+    "ts-jest": "24.3.0"
+  },
+  "devDependencies": {
+    "@types/jest": "24.9.0",
+    "apollo-link": "1.2.13",
+    "apollo-link-http": "1.5.16",
+    "jest": "24.9.0",
+    "node-fetch": "2.6.0",
+    "ts-node": "7.0.1",
+    "ts-node-dev": "1.0.0-pre.44",
+    "typescript": "3.2.2",
+    "eslint": "6.8.0",
+    "@typescript-eslint/eslint-plugin": "2.21.0",
+    "@typescript-eslint/parser": "2.21.0",
+    "prettier": "1.19.1",
+    "eslint-plugin-prettier": "3.1.2",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-config-prettier": "6.10.0",
+    "eslint-plugin-import": "2.20.1"
+  }
+}
